@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil FR</title>
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
+
 <body>
-    
-    <a class = flag__fr href="/fr/index.html" onclick="document.cookie = 
-    `nf_lang=en; path=/ ; SameSite=Strict`">🇫🇷 | </a>
-    <a class="flag__en" href="/en/index.html" onclick="document.cookie = 
-        `nf_lang=en; path=/ ; SameSite=Strict`">🇬🇧</a>
+    <header>
+        <div class="flags">
+            <a class=flag__fr href="/fr/index.html" onclick="document.cookie = 
+            `nf_lang=en; path=/ ; SameSite=Strict`">🇫🇷</a>
+             | 
+            <a class="flag__en" href="/en/index.html" onclick="document.cookie = 
+            `nf_lang=en; path=/ ; SameSite=Strict`">🇬🇧</a>
+        </div>
+    </header>
+    <hr />
     <h1>Accueil site </h1>
-    <a class = header__link href="autre.html">Autre page</a>
+    <hr />
+    <div class="hero hero--home">
+        <img class="hero hero__img" src="../assets/img/tour_eiffel.jpg" alt="Image de la Tour Eiffel">
+        <img class="hero hero__img" src="../assets/img/arc_de_triomphe.webp" alt="Image de l'arc de triomphe">
+    </div>
+    <a class=header__link href="autre.html">Autre page</a>
 </body>
+
 </html>
